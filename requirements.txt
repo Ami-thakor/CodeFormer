@@ -2,7 +2,8 @@ addict
 future
 lmdb
 numpy
-opencv-python
+ultralytics
+opencv-python-headless==4.8.1.78
 Pillow
 pyyaml
 requests
