@@ -1,0 +1,24 @@
+{
+  "name": "Clear Image Bot",
+  "description": "Image refine with tg bot",
+  "repository": "https://github.com/Ami-thakor/img-clear",
+  "keywords": ["telegram", "bot", "restore"],
+  "env": {
+    "WORKERS": {
+      "description": "Workers for process",
+      "required": true
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
